@@ -7,10 +7,10 @@ class Car
     public $driver;
     public $passenger;
 
-    private function getClassName()
-    {
-        return get_called_class();
-    }
+    // private function getClassName()
+    // {
+    //     return get_called_class();
+    // }
 
 
     public function __construct($license, $driver)
@@ -19,9 +19,8 @@ class Car
         $this->driver = $driver;
     }
 
-    public function PrintDataCar()
+    public function printDataCar()
     {
-        echo "Licencia: $this->license, Driver: {$this->driver->name},
-        document: {$this->driver->document}";
+        echo "Licencia: $this->license, Driver:" . $this->driver->name;
     }
 }
