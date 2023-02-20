@@ -1,6 +1,7 @@
-class Route {
+<?php
+class Route
+{
     public $id;
-    piblic $start = array();
-    piblic $end = array();
-    
+    public $start = array();
+    public $end = array();
 }
