@@ -1,5 +1,5 @@
 class UberX extends Car {
-    constructor(brand, model, license, driver) {
+    constructor(license, driver, brand, model) {
         super(license, driver);
         this.brand = brand;
         this.model = model;
