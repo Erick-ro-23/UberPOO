@@ -2,7 +2,7 @@ class Driver extends Account {
     constructor(name, document, email, password) {
         super(name, document, email, password);
     }
-    prinDataUser() {
+    prinDataDriver() {
         console.log("Name: " + this.name);
         console.log("Document: " + this.document);
         console.log("Email: " + this.email);

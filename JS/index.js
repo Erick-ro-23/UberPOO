@@ -1,10 +1,14 @@
-var car = new Car("AW456", new Account("Andres Herrera", "NJI789"));
+console.log("*****Car*****");
+
+var car = new Car("AW456", new Account("Andres Herrera", "NJI789", "adreh12@mail.com", "asdqwe"));
 car.passenger = 4;
 car.printDataCar();
 
-var uberX = new UberX("AQR567", new Account("Juan Perez", "NJH121"), "Chevrolet", "Spark");
+console.log("*****UberX*****");
+
+var uberX = new UberX("AQR567", new Account("Juan Perez", "NJH121", "juanpe14@mail.com", "qweert"), "Chevrolet", "Spark");
 uberX.passenger = 5;
-uberX.printDataCar();
+uberX.printDataUberX();
 
 console.log("*****USERS*****");
 

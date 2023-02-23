@@ -5,6 +5,5 @@ class Account {
         this.document = document;
         this.email = email;
         this.password = password;
-
     }
 }

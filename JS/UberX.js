@@ -4,4 +4,10 @@ class UberX extends Car {
         this.brand = brand;
         this.model = model;
     }
+
+    printDataUberX() {
+        super.printDataCar();
+        console.log(this.brand);
+        console.log(this.model);
+    }
 }
