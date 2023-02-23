@@ -8,7 +8,7 @@ public class Main {
         UberX uberx = new UberX("CHS475 ", new Account("Juan Perez", "QWE123", "juanp89@mail.com", "asdqwe"),
                 "Chevrolet", "Spark");
         uberx.passengenger = 4;
-        uberx.printDataCar();
+        uberx.printDataUberX();
 
     }
 }

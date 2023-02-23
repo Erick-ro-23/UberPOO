@@ -6,6 +6,10 @@ class UberX extends Car {
         super(license, driver);
         this.brand = brand;
         this.model = model;
+    }
 
+    void printDataUberX() {
+        super.printDataCar();
+        System.out.println("Brand: " + brand + " Model: " + model);
     }
 }
