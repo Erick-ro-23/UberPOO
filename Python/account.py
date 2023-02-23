@@ -9,4 +9,4 @@ class Account:
         self.name = name
         self.document = document
         self.email = email
-        self.document = password
+        self.password = password

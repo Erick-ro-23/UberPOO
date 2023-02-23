@@ -5,7 +5,7 @@ class UberX(Car):
     brand = str
     model = str
 
-    def __init__(self, license, name, document, email, password, brand, model):
-        super.__init__(license, name, document, email, password)
+    def __init__(self, license, driver, brand, model):
+        super().__init__(license, driver)
         self.brand = brand
         self.model = model
