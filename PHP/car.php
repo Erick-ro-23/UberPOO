@@ -7,12 +7,6 @@ class Car extends Account
     public $driver;
     public $passenger;
 
-    // private function getClassName()
-    // {
-    //     return get_called_class();
-    // }
-
-
     public function __construct($license, $driver)
     {
         $this->license = $license;
@@ -22,5 +16,7 @@ class Car extends Account
     public function printDataCar()
     {
         echo " Licencia: $this->license, Driver: " . $this->driver->name;
+        echo " Document: " . $this->driver->document, " Email: " . $this->driver->email,
+        " Password: " . $this->driver->password;
     }
 }
