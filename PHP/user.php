@@ -10,7 +10,7 @@ class User extends Account
     public function printDataUser()
     {
         echo "<br>";
-        echo "Users";
+        echo "Users: ";
         echo "<br>";
         echo "Name: $this->name, Document: $this->document, Email: $this->email, Password: " . $this->password;
         echo "<br>";
